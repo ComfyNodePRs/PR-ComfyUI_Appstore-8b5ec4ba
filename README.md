@@ -9,7 +9,9 @@ ComyUIAppstore plugin is where comfyUI users turn their work into Apps in Huaxia
 
 
 ## Demo 
+![Demo](https://taoaibj.oss-rg-china-mainland.aliyuncs.com/resources/comfyui_appstore_intro.mp4)
 
-https://taoaibj.oss-rg-china-mainland.aliyuncs.com/resources/comfyui_appstore_intro.mp4
+
+
 
 <br>
