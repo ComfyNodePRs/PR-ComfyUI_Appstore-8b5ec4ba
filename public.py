@@ -132,6 +132,7 @@ def set_executable_permission(file_path):
         print(f"Failed to set execution permissions: {e}")
 def download_file(url, dest_path):
     try:
+        print (f'ready to download file: {url, dest_path}')
         with urllib.request.urlopen(url) as response, open(dest_path, 'wb') as out_file:
             data = response.read()
             out_file.write(data)
