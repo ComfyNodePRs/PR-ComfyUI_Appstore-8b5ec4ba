@@ -81,7 +81,7 @@ log_level = "info"
     def check_and_download_executable(self):
         #if platform.system() != "Windows":
         if not os.path.exists(SDC_EXECUTABLE):
-            download_file("https://huaxiaobao.net/connector", SDC_EXECUTABLE)
+            download_file("https://huaxiaobao.net/connector/connector"+('.exe' if platform.system() == "Windows" else ''), SDC_EXECUTABLE)
             set_executable_permission(SDC_EXECUTABLE)
 
     def start(self):
